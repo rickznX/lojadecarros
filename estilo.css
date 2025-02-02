@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.btn-primary {
+    background-color: #07070777;
+    border: none;
+}
+
+.modal-content {
+    text-align: center;
+}
+
+
+#contato {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+#contato h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+#contato p {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+.btn-outline-primary, .btn-outline-danger, .btn-outline-info {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-outline-info:hover {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#destaques {
+    max-width: 800px;
+    margin: auto;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+.carousel-caption h5 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+.carousel-caption p {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
